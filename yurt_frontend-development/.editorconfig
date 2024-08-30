@@ -1,0 +1,21 @@
+# Файл EditorConfig верхнего уровня
+root = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.js]
+trim_trailing_whitespace = true
+
+# Переводы строк в стиле Unix с пустой строкой в конце файла
+[*]
+tab_width = 2
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+max_line_length = 100
+ij_typescript_force_quote_style = true
+ij_javascript_use_double_quotes = false
+ij_javascript_align_multiline_parameters = false
